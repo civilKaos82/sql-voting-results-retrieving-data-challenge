@@ -52,7 +52,7 @@ The Election Board suspects there's some cheating going on!  Help them figure ou
 
 5. Did anyone vote for the same politician twice? What was the name of the voter and the politician they voted for?  Pretty sneaky...
 
-Paste the text from your `trace` file into the gist and star it for future reference on `JOIN`'s and other SQL calls.  Include the schemas of the 3 tables in the gist.  Include some on the output of the queries if you're worried you won't remember all this syntax!
+Paste the text from your `trace` file into the source file along with the schemas of the 3 tables. If you want to use this as a future reference, you might also include some on the output of the queries to help remember all this syntax!
 
 
 <!-- ##Optimize Your Learning  -->
