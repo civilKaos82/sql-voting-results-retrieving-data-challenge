@@ -29,20 +29,15 @@ If we want to double-check the results of our queries, each desired result set i
 
 5. What are the first and last names of the female voters who voted for Rep. Marcia Fudge?
 
+6. Which Congress member received the most votes? List their name and a count of their votes.  Who were the people that voted for that politician?  List their names, gender and party.
 
-###Release 2 : Advanced queries to expose voter fraud
+7. How many votes were received by Congress members whose communication grade average was less than 9 (this number can be found in the `grade_current` field)? List their name, location, grade since 1996, and the vote count.
 
-The Election Board suspects there's some cheating going on!  Help them figure out what is going on and if anyone is to blame.
+8. What 10 states had the most voters turnout? (Does this correspond to the population of those states?) List the people that voted in the top state's elections.  (It will be a big list, and you can use the results from your first query to help simplify this next query.)
 
-1. Which Congress member received the most votes? List their name and a count of their votes.  Who were the people that voted for that politician?  List their names, gender and party.
+9. List the people that voted more than 2 times? (It should only be once for their Senator and once for their representative!)  Ay Caramba!  We have some serious ballot stuffing! Report this to the Election Board!
 
-2. How many votes were received by Congress members whose communication grade average was less than 9 (this number can be found in the `grade_current` field)? List their name, location, grade since 1996, and the vote count.
-
-3. What 10 states had the most voters turnout? (Does this correspond to the population of those states?) List the people that voted in the top state's elections.  (It will be a big list, and you can use the results from your first query to help simplify this next query.)
-
-4. List the people that voted more than 2 times? (It should only be once for their Senator and once for their representative!)  Ay Caramba!  We have some serious ballot stuffing! Report this to the Election Board!
-
-5. Did anyone vote for the same politician twice? What was the name of the voter and the politician they voted for?  Pretty sneaky...
+10. Did anyone vote for the same politician twice? What was the name of the voter and the politician they voted for?  Pretty sneaky...
 
 Paste the text from your `trace` file into the source file along with the schemas of the 3 tables. If you want to use this as a future reference, you might also include some on the output of the queries to help remember all this syntax!
 
