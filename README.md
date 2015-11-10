@@ -29,7 +29,7 @@ If we want to double-check the results of our queries, each desired result set i
 
 5. What are the first and last names of the female voters who voted for Rep. Marcia Fudge?
 
-6. Which Congress member received the most votes? List their name and a count of their votes.  Who were the people that voted for that politician?  List their names, gender and party.
+6. What are the ids and names of the politicians for which Lizzie Rath voted?
 
 7. How many votes were received by Congress members whose communication grade average was less than 9 (this number can be found in the `grade_current` field)? List their name, location, grade since 1996, and the vote count.
 
