@@ -13,9 +13,11 @@ The database we'll be working with is `voting_results.db`.  Open the database us
 Model the database schema using the [schema designer].  Be sure to connect primary and foreign keys.  When our schema is complete, take a screenshot of the design and commit it.
 
 
-###Release 1 : Query to extract voting data
+### Release 1: Query the Datbase
+For each of the data requests below, write a SQL query that will retrieve the appropriate data.  Record our query for each request in the file `queries.md`.
 
-Let's get going with some simple queries.
+If we want to double-check the results of our queries, each desired result set is recorded as a CSV file in the `query_results` directory—viewing the CSV files on GitHub will present them as nicely formatted tables.
+
 
 1. Count the votes for Sen. Olympia Snowe, whose id is 524.
 
