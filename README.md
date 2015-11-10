@@ -33,7 +33,7 @@ If we want to double-check the results of our queries, each desired result set i
 
 8. Which state had the largest number of voters (not votes) and how many unique voters voted in that state?
 
-9. List the people that voted more than 2 times? (It should only be once for their Senator and once for their representative!)  Ay Caramba!  We have some serious ballot stuffing! Report this to the Election Board!
+9. Voters should cast a maximum of two votes: one for the representative and one for the senator.  What are the first and last names of the voters who voted more than five times and how many times did each of them vote, ordered first by the number of votes cast and then alphabetically by first name?
 
 10. Did anyone vote for the same politician twice? What was the name of the voter and the politician they voted for?  Pretty sneaky...
 
