@@ -27,7 +27,7 @@ If we want to double-check the results of our queries, each desired result set i
 
 4. What were the names of the congress members who received less than ten votes and how many votes did each receive?
 
-5. 
+5. What are the first and last names of the female voters who voted for Rep. Marcia Fudge?
 
 
 ###Release 2 : Advanced queries to expose voter fraud
