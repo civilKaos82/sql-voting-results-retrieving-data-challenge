@@ -25,9 +25,9 @@ If we want to double-check the results of our queries, each desired result set i
 
 3. What were the names of the ten congress members who received the most votes and how many votes did each receive?
 
-4. 
+4. What were the names of the ten congress members who received the smallest number of votes and how many votes did each receive?
 
-5. Now make a list of all the Congress members that got the least number of votes, in ascending order. Again, skip the date columns.
+5. 
 
 
 ###Release 2 : Advanced queries to expose voter fraud
