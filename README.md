@@ -29,7 +29,7 @@ If we want to double-check the results of our queries, each desired result set i
 
 6. What are the ids and names of the politicians for which Lizzie Rath voted?
 
-7. How many votes were received by Congress members whose communication grade average was less than 9 (this number can be found in the `grade_current` field)? List their name, location, grade since 1996, and the vote count.
+7. What are the current grades, names, locations, and vote counts for all politicians whose current grades are less than 9.00 ordered by current grade from high to low.
 
 8. What 10 states had the most voters turnout? (Does this correspond to the population of those states?) List the people that voted in the top state's elections.  (It will be a big list, and you can use the results from your first query to help simplify this next query.)
 
