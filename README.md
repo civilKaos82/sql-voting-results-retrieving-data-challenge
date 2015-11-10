@@ -10,7 +10,7 @@ We'll be presented with a number of requests for data.  For each of them, we'll 
 ### Release 0:  Model the Database with Schema Designer
 The database we'll be working with is `voting_results.db`.  Open the database using `SQLite3`.  Take a look at the database schema (use the `.schema` command).  There should be three tables: `congress_members`, `voters`, and `votes`.
 
-Model the database schema using the [schema designer].  When our schema is complete, take a screenshot of the design and commit it.
+Model the database schema using the [schema designer].  Be sure to connect primary and foreign keys.  When our schema is complete, take a screenshot of the design and commit it.
 
 
 ###Release 1 : Query to extract voting data
