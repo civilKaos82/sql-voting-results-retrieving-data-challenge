@@ -1,4 +1,4 @@
-# Poll Db 1 Queries 
+# SQL Queries: Voting Results 
  
 ##Learning Competencies 
 
