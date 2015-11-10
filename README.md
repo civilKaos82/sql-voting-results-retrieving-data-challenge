@@ -21,9 +21,9 @@ If we want to double-check the results of our queries, each desired result set i
 
 1. How many votes were cast for the politician with id 524?
 
-2. Now do that query with a `JOIN` statement without hard-coding the id `524` explicitly, querying both the votes and congress_members table.
+2. How many votes were cast for Rep. Erik Paulsen?
 
-3. How about Rep. Erik Paulsen?  How many votes did he get?
+3. 
 
 4. Make a list of Congress members that got the most votes, in descending order.  Exclude the create_at and updated_at columns.
 
