@@ -6,17 +6,11 @@ In this challenge we'll be writing some SQL queries to investigate some voting d
 We'll be presented with a number of requests for data.  For each of them, we'll need to think through how we can get the desired information out of the database and then write the SQL query to get it.
  
 
-##Releases
+## Releases
+### Release 0:  Model the Database with Schema Designer
+The database we'll be working with is `congress_poll_results.db`.  Open the database using `SQLite3`.  Take a look at the database schema (use the `.schema` command).  There should be three tables: `congress_members`, `voters`, and `votes`.
 
-###Release 0 :  Download and set up the Poll DB
-
-Download the database [here](https://github.com/downloads/dbc-challenges/binary_store/congress_poll_results.db), and open it up with `sqlite3 congress_poll_results.db`.
-
-Take a look at the schemas included.  Type `.schema`.  There should be 3 tables, `congress_members`, `voters`, and `votes`.  We're going to be doing some queries to get some insights into the data set.
-
-We suggest copying the schemas and putting them into a text file that's easy to reference.  You'll need it as we try to access multiple columns across multiple tables.
-
-Type `.trace sql_history.txt` to create a file to save all the commands you do for reference and for submitting this challenge  (NOTE: '.trace' only works with the latest version of sqlite3.  If you are having problems running it on a DBC machine, quit out of the sqlite3 console and type `brew link sqlite3` from the command line.)  
+Model the database schema using the [schema designer].  When our schema is complete, take a screenshot of the design and commit it.
 
 
 ###Release 1 : Query to extract voting data
@@ -54,3 +48,6 @@ Paste the text from your `trace` file into the source file along with the schema
 <!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+
+[schema designer]: https://schemadesigner.devbootcamp.com/
