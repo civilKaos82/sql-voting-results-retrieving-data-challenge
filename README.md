@@ -23,9 +23,9 @@ If we want to double-check the results of our queries, each desired result set i
 
 2. How many votes were cast for Rep. Erik Paulsen?
 
-3. What were the names of the ten congress members who received the most votes and how many votes did each receive?
+3. What were the names of the eight congress members who received the most votes and how many votes did each receive?
 
-4. What were the names of the ten congress members who received the smallest number of votes and how many votes did each receive?
+4. What were the names of the congress members who received less than ten votes and how many votes did each receive?
 
 5. 
 
