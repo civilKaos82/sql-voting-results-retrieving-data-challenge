@@ -19,7 +19,7 @@ For each of the data requests below, write a SQL query that will retrieve the ap
 If we want to double-check the results of our queries, each desired result set is recorded as a CSV file in the `query_results` directory—viewing the CSV files on GitHub will present them as nicely formatted tables.
 
 
-1. Count the votes for Sen. Olympia Snowe, whose id is 524.
+1. How many votes were cast for the politician with id 524?
 
 2. Now do that query with a `JOIN` statement without hard-coding the id `524` explicitly, querying both the votes and congress_members table.
 
