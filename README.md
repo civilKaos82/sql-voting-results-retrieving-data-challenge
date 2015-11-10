@@ -29,9 +29,9 @@ If we want to double-check the results of our queries, each desired result set i
 
 6. What are the ids and names of the politicians for which Lizzie Rath voted?
 
-7. What are the current grades, names, locations, and vote counts for all politicians whose current grades are less than 9.00 ordered by current grade from high to low.
+7. What are the current grades, names, locations, and vote counts for all politicians whose current grades are less than 9.00 ordered by current grade from high to low?
 
-8. What 10 states had the most voters turnout? (Does this correspond to the population of those states?) List the people that voted in the top state's elections.  (It will be a big list, and you can use the results from your first query to help simplify this next query.)
+8. Which state had the largest number of voters (not votes) and how many unique voters voted in that state?
 
 9. List the people that voted more than 2 times? (It should only be once for their Senator and once for their representative!)  Ay Caramba!  We have some serious ballot stuffing! Report this to the Election Board!
 
