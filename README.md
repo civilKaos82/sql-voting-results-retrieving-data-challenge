@@ -1,9 +1,7 @@
 # SQL Queries: Voting Results 
  
 ## Summary 
-In this challenge we'll be writing some SQL queries to investigate some voting data.  We'll work with a preexisting database.  The queries we write we start simpler and build in complexity as we move through the challenge.  
-
-We'll be presented with a number of requests for data.  For each of them, we'll need to think through how we can get the desired information out of the database and then write the SQL query to get it.
+In this challenge we'll be writing some SQL queries to investigate some voting data.  We'll work with a preexisting database.  We'll be presented with a number of requests for data.  For each of them, we'll need to think through how we can get the desired information out of the database and then write the SQL query to get it.
  
 
 ## Releases
