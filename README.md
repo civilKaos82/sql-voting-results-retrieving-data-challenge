@@ -1,10 +1,5 @@
 # SQL Queries: Voting Results 
  
-##Learning Competencies 
-
-* Use SQLite and the SQLite console to query data
-* Use common SQL Queries to view specific data
-
 ##Summary 
 
  You'll be working directly with a three table database in the SQLite console.  It's a great opportunity to see the more complex statements you learned from SQL Tutor in action!  Use `.trace` to log all of your commands and paste into your gist. 
