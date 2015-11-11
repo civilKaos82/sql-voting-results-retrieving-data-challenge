@@ -12,7 +12,7 @@ Model the database schema using the [schema designer].  Be sure to connect prima
 
 
 ### Release 1: Query the Datbase
-For each of the data requests below, write a SQL query that will retrieve the appropriate data.  Record our query for each request in the file `queries.md`.
+For each of the data requests below, write a SQL query that will retrieve the appropriate data.  Copy the working query for each request in the file `queries.md`.
 
 If we want to double-check the results of our queries, each desired result set is recorded as a CSV file in the `query_results` directory—viewing the CSV files on GitHub will present them as nicely formatted tables.
 
