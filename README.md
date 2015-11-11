@@ -37,10 +37,6 @@ If we want to double-check the results of our queries, each desired result set i
 
 10. Did anyone vote for the same politician more than once?  How many votes were cast and what were the names of the politicians and the first and last names of the voters, ordered by the number of votes cast from high to low and then politician name?
 
-Paste the text from your `trace` file into the source file along with the schemas of the 3 tables. If you want to use this as a future reference, you might also include some on the output of the queries to help remember all this syntax!
-
-
-<!-- ##Optimize Your Learning  -->
 
 ##Resources
 
