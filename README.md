@@ -38,7 +38,7 @@ If we want to double-check the results of our queries, each desired result set i
 10. Did anyone vote for the same politician more than once?  How many votes were cast and what were the names of the politicians and the first and last names of the voters, ordered by the number of votes cast from high to low and then politician name?
 
 
-##Resources
-
+## Conclusion
+Our databases will form the foundation of the programs and applications that we'll be developing throughout Dev Bootcamp.  While we'll begin to use software that handles retrieving from our database for us, it's important to understand what is going on in the background.
 
 [schema designer]: https://schemadesigner.devbootcamp.com/
