@@ -1,60 +1,44 @@
-# Poll Db 1 Queries 
+# SQL Queries: Voting Results 
  
-##Learning Competencies 
-
-* Use SQLite and the SQLite console to query data
-* Use common SQL Queries to view specific data
-
-##Summary 
-
- You'll be working directly with a three table database in the SQLite console.  It's a great opportunity to see the more complex statements you learned from SQL Tutor in action!  Use `.trace` to log all of your commands and paste into your gist. 
+## Summary 
+In this challenge we'll be writing some SQL queries to investigate some voting data.  We'll work with a preexisting database.  We'll be presented with a number of requests for data.  For each of them, we'll need to think through how we can get the desired information out of the database and then write the SQL query to get it.
  
 
-##Releases
+## Releases
+### Release 0:  Model the Database with Schema Designer
+The database we'll be working with is `voting_results.db`.  Open the database using `SQLite3`.  Take a look at the database schema (use the `.schema` command).  There should be three tables: `congress_members`, `voters`, and `votes`.
 
-###Release 0 :  Download and set up the Poll DB
-
-Download the database [here](https://github.com/downloads/dbc-challenges/binary_store/congress_poll_results.db), and open it up with `sqlite3 congress_poll_results.db`.
-
-Take a look at the schemas included.  Type `.schema`.  There should be 3 tables, `congress_members`, `voters`, and `votes`.  We're going to be doing some queries to get some insights into the data set.
-
-We suggest copying the schemas and putting them into a text file that's easy to reference.  You'll need it as we try to access multiple columns across multiple tables.
-
-Type `.trace sql_history.txt` to create a file to save all the commands you do for reference and for submitting this challenge  (NOTE: '.trace' only works with the latest version of sqlite3.  If you are having problems running it on a DBC machine, quit out of the sqlite3 console and type `brew link sqlite3` from the command line.)  
+Model the database schema using the [schema designer].  Be sure to connect primary and foreign keys.  When our schema is complete, take a screenshot of the design and commit it.
 
 
-###Release 1 : Query to extract voting data
+### Release 1: Query the Datbase
+For each of the data requests below, write a SQL query that will retrieve the appropriate data.  Copy the working query for each request in the file `queries.md`.
 
-Let's get going with some simple queries.
-
-1. Count the votes for Sen. Olympia Snowe, whose id is 524.
-
-2. Now do that query with a `JOIN` statement without hard-coding the id `524` explicitly, querying both the votes and congress_members table.
-
-3. How about Rep. Erik Paulsen?  How many votes did he get?
-
-4. Make a list of Congress members that got the most votes, in descending order.  Exclude the create_at and updated_at columns.
-
-5. Now make a list of all the Congress members that got the least number of votes, in ascending order. Again, skip the date columns.
+If we want to double-check the results of our queries, each desired result set is recorded as a CSV file in the `query_results` directory—viewing the CSV files on GitHub will present them as nicely formatted tables.
 
 
-###Release 2 : Advanced queries to expose voter fraud
+1. How many votes were cast for the politician with id 524?
 
-The Election Board suspects there's some cheating going on!  Help them figure out what is going on and if anyone is to blame.
+2. How many votes were cast for Rep. Erik Paulsen?
 
-1. Which Congress member received the most votes? List their name and a count of their votes.  Who were the people that voted for that politician?  List their names, gender and party.
+3. What were the names of the eight congress members who received the most votes and how many votes did each receive?
 
-2. How many votes were received by Congress members whose communication grade average was less than 9 (this number can be found in the `grade_current` field)? List their name, location, grade since 1996, and the vote count.
+4. What were the names of the congress members who received less than ten votes and how many votes did each receive?
 
-3. What 10 states had the most voters turnout? (Does this correspond to the population of those states?) List the people that voted in the top state's elections.  (It will be a big list, and you can use the results from your first query to help simplify this next query.)
+5. What are the first and last names of the female voters who voted for Rep. Marcia Fudge?
 
-4. List the people that voted more than 2 times? (It should only be once for their Senator and once for their representative!)  Ay Caramba!  We have some serious ballot stuffing! Report this to the Election Board!
+6. What are the ids and names of the politicians for which Lizzie Rath voted?
 
-5. Did anyone vote for the same politician twice? What was the name of the voter and the politician they voted for?  Pretty sneaky...
+7. What are the current grades, names, locations, and vote counts for all politicians whose current grades are less than 9.00 ordered by current grade from high to low?
 
-Paste the text from your `trace` file into the source file along with the schemas of the 3 tables. If you want to use this as a future reference, you might also include some on the output of the queries to help remember all this syntax!
+8. Which state had the largest number of voters (not votes) and how many unique voters voted in that state?
+
+9. Voters should cast a maximum of two votes: one for the representative and one for the senator.  What are the first and last names of the voters who voted more than five times and how many times did each of them vote, ordered first by the number of votes cast and then alphabetically by first name?
+
+10. Did anyone vote for the same politician more than once?  How many votes were cast and what were the names of the politicians and the first and last names of the voters, ordered by the number of votes cast from high to low and then politician name?
 
 
-<!-- ##Optimize Your Learning  -->
+## Conclusion
+Our databases will form the foundation of the programs and applications that we'll be developing throughout Dev Bootcamp.  While we'll begin to use software that handles retrieving from our database for us, it's important to understand what is going on in the background.
 
-##Resources
+[schema designer]: https://schemadesigner.devbootcamp.com/
