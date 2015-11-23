@@ -27,29 +27,27 @@ Paste SQL query here.
 Paste SQL query here.
 ```
 
-## Release 2
-
-1.
+6.
   ```sql
 Paste SQL query here.
 ```
 
-2.
+7.
   ```sql
 Paste SQL query here.
 ```
 
-3.
+8.
   ```sql
 Paste SQL query here.
 ```
 
-4.
+9.
   ```sql
 Paste SQL query here.
 ```
 
-5.
+10.
   ```sql
 Paste SQL query here.
 ```
